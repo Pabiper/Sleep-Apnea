@@ -1,3 +1,1 @@
-# Long-Range Interdependencies Aware Signal
-Analysis for Rapid and Accurate Obstructive Sleep
-Apnea Prediction
+# Long-Range Interdependencies Aware Signal Analysis for Rapid and Accurate Obstructive Sleep Apnea Prediction
