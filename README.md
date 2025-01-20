@@ -1,29 +1,35 @@
-# Long-Range Interdependencies Aware Signal Analysis (LRIA)
+# **Long-Range Interdependencies Aware Signal Analysis (LRIA)**
 
 This repository hosts the code for the paper manuscript "Long-Range Interdependencies Aware Signal Analysis for Rapid and Accurate Obstructive Sleep Apnea Prediction".
 
-## Long-Range Interdependencies Aware Signal Analysis (LRIA)
+## Dataset and Sample data
 
-The `LRIA` folder contains the code to extract and select the inner coupling information (coupling matrices) from the raw data.
+You can access sample data via this Google Drive link: https://drive.google.com/drive/folders/1-JiQKihFVLfssGcDizrpFCd1lpB_VfeD?usp=sharing
 
-The code package is written by Matlab.
+`visit_1/` contains sample raw data from the SHHS dataset visit 1, including the following patient IDs: 77, 81, 82, 83, 84.
 
-## Model training and testing on SHHS dataset
+`aout/` contains the corresponding coupling matrices generated using LRIA from the raw data.
 
-From this Google drive link, you can see the sample data: https://drive.google.com/drive/folders/1-JiQKihFVLfssGcDizrpFCd1lpB_VfeD?usp=sharing
+`shhs1_ahi_pruebas.xlsx` provides the AHI levels for all patients in the SHHS dataset.
 
-The `visit_1` folder contains the sample raw data from SHHS dataset visit_1. The patients' ID are: 77, 81, 82, 83, 84.
+## Code Details
 
-The `aout` folder contains the corresponding coupling matrices with the raw data using LRIA.
+`LRIA/` contains the MATLAB code to extract and select the inner coupling information (generate coupling matrices) from raw data.
 
-"shhs1_ahi_pruebas.xlsx" file contains the AHI level of total patients in SHHS dataset.
+### Data Processing and Model training on SHHS dataset
 
-In this work, we used an environment of Python 3.11.3. "dataprocess.ipynb" contains the code to extract files from the folder and generate the inputs and labels.
+Environment: Python 3.11.3. 
 
-We provide two models for comparison: naive transformer model in "train_transformer.ipynb" and proposed two-tower transformer in "train_twotower.ipynb". 
+`dataprocess.ipynb` processes raw files to generate input features and labels. 
 
-The code package is achieved in Python. Of note, each epoch needs 4-5 hours for the whole dataset in model training.
+`train_transformer.ipynb` implements the naive transformer model
 
-## Results
+`train_twotower.ipynb` implements the proposed two-tower transformer model.
 
-The `Figures` folder shows some result figures of our experiments. "plot.ipynb" is used to generate them.
+Training the full SHHS dataset takes approximately **4-5 hours per epoch** for both models.
+
+## Results and Visualizations
+
+`Figures/` folder contains result figures from the experiments.  
+
+Use `plot.ipynb` to reproduce the visualizations.  
