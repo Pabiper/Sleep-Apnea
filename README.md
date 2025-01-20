@@ -26,7 +26,7 @@ Environment: Python 3.11.3.
 
 `train_twotower.ipynb` implements the proposed two-tower transformer model.
 
-Training the full SHHS dataset takes approximately **4-5 hours per epoch** for both models.
+Of note, training the full SHHS dataset takes approximately **4-5 hours per epoch** for both models.
 
 ## Results and Visualizations
 
