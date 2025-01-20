@@ -4,7 +4,7 @@ This repository hosts the code for the paper manuscript "Long-Range Interdepende
 
 ## Long-Range Interdependencies Aware Signal Analysis (LRIA)
 
-`LRIA` folder contains the code to extract and select the inner coupling information (coupling matrices) from the raw data.
+The `LRIA` folder contains the code to extract and select the inner coupling information (coupling matrices) from the raw data.
 
 The code package is written by Matlab.
 
@@ -12,9 +12,9 @@ The code package is written by Matlab.
 
 From this Google drive link, you can see the sample data: https://drive.google.com/drive/folders/1-JiQKihFVLfssGcDizrpFCd1lpB_VfeD?usp=sharing
 
-`visit_1` folder contains the sample raw data from SHHS dataset visit_1. The patients' ID are: 77, 81, 82, 83, 84.
+The `visit_1` folder contains the sample raw data from SHHS dataset visit_1. The patients' ID are: 77, 81, 82, 83, 84.
 
-`aout` folder contains the corresponding coupling matrices with the raw data using LRIA.
+The `aout` folder contains the corresponding coupling matrices with the raw data using LRIA.
 
 "shhs1_ahi_pruebas.xlsx" file contains the AHI level of total patients in SHHS dataset.
 
@@ -26,4 +26,4 @@ The code package is achieved in Python. Of note, each epoch needs 4-5 hours for 
 
 ## Results
 
-Here are some results 
+The `Figures` folder shows some result figures of our experiments. "plot.ipynb" is used to generate them.
