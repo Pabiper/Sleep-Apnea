@@ -1,4 +1,4 @@
-# Long-Range Interdependencies Aware Signal Analysis for Rapid and Accurate Obstructive Sleep Apnea Prediction
+# Long-Range Interdependencies Aware Signal Analysis (LRIA)
 
 This repository hosts the code for the paper manuscript "Long-Range Interdependencies Aware Signal Analysis for Rapid and Accurate Obstructive Sleep Apnea Prediction".
 
