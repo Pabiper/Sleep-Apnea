@@ -18,7 +18,7 @@ You can access sample data via this Google Drive link: https://drive.google.com/
 
 ### Data Processing and Model training on SHHS dataset
 
-Environment: Python 3.11.3. 
+Environment: Python 3.8.10. 
 
 `dataprocess.ipynb` processes raw files to generate input features and labels. 
 
